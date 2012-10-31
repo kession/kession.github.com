@@ -2,7 +2,7 @@
 layout: post
 title: xselect
 categories:
-- ued
+- javascript
 tags:
 - bp
 ---

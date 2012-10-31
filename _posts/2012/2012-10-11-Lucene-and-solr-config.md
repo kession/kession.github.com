@@ -44,7 +44,7 @@ tags:
 
 (1). 用户输入查询语句 
 
-		A AND B NOT C
+		 A AND B NOT C
 
 (2). 查询语句分析
 
