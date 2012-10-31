@@ -1,8 +1,14 @@
----
+﻿---
 layout: post
-category : ued
-tags : [bss]
+title: xselect
+categories:
+- javascript
+tags:
+- javascript
+- json
+- spring
 ---
+
 ## 异步请求返回JSON为空常见原因
 ***
 **问题描述:**在进行异步请求的时候，有时会遇到程序完成返回，结果的JSON串为空的情况。首先确保程序Debug能return ModelAndView，一般原因有以下两种：

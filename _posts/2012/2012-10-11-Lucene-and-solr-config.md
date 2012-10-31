@@ -1,9 +1,11 @@
----
+﻿---
 layout: post
-title: "lucene"
-date: 2012-10-11 22:20
-comments: true
-categories: solr
+title: Lucene索引与solr配置文件
+categories:
+- solr
+tags:
+- lucene
+- solr
 ---
 
 ## 一、搜索引擎创建和搜索索引过程
