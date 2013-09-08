@@ -169,6 +169,6 @@ Corresponds to TV button in Luke, and V field attribute.
 > 段合并发生在添加完一篇文档后, 添加完一篇文档后, 如果内存达到用户设定的ramBufferSize或者maxBufferedDocs, 则写入文件系统, 形成一个新的段. 新段加入可能造成差不多大小的段个数达到mergeFactor, 则开始合并过程; 
 
 >*ramBufferSizeMB*和 *maxBufferedDocs*可以同时使用, __不要__随意设置MaxbufferedDocs。MaxBufferedDocs和RAMBufferSize共同控制内存中文档的容量, MaxbufferedDocs本身是disabled，设置不合理将导致大规模的重建索引非常慢。
-## 六、 minisearch接下来工作
+
 
 
