@@ -1,6 +1,0 @@
-﻿markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://b.etao.im
-author: kession
-pygments: true
-paginate: 16
