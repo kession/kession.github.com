@@ -16,5 +16,17 @@
         "path": "2012-09-28-Json-Return-Failed",
         "tags": ["json", "spring", "ajax"],
         "date": "2012-09-28"
+    },
+	{
+        "title": "Spring 依赖注入总结",
+        "path": "2013-09-05-spring3-study",
+        "tags": ["DI", "spring"],
+        "date": "2013-09-05"
+    },
+	{
+        "title": "Interceptor(拦截器)与Filter的区别整理",
+        "path": "2013-09-06-interceptor-and-filter",
+        "tags": ["spring"],
+        "date": "2013-09-06"
     }
 ]
