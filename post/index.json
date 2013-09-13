@@ -1,4 +1,10 @@
 [
+    {
+        "title": "广告基本概念与术语总结",
+        "path": "2013-09-11-ad-terms",
+        "tags": ["广告","DMP","RTB","SSP","DSP"],
+        "date": "2013-09-11"
+    },
 	{
         "title": "Interceptor(拦截器)与Filter的区别整理",
         "path": "2013-09-06-interceptor-and-filter",
