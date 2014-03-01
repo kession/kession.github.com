@@ -29,8 +29,8 @@
 <body>
   <div class="header navbar-fixed-top" ng-controller="HeaderCtrl">
     <ul class="nav nav-pills pull-right">
-      <li ng-show="config.quickLinks" ng-repeat="quickLink in config.quickLinks" ng-class="{'active': quickLink.text == state}">
-        <a href="{{quickLink.href}}">{{quickLink.text}}</a>
+      <li ng-repeat="quickLink in config.quickLinks" ng-class="{'active': quickLink.text == state}">
+        <a ng-show="quickLink.text" href="{{quickLink.href}}">{{quickLink.text}}</a>
       </li>
     </ul>
 
