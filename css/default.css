@@ -1,121 +1,148 @@
 /*
 
-Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
 
 */
 
-pre code {
-  display: block; padding: 0.5em;
-  background: #F0F0F0;
+.hljs {
+  display: block;
+  padding: 0.5em;
+  background: #23241f;
 }
 
-pre code,
-pre .ruby .subst,
-pre .tag .title,
-pre .lisp .title {
-  color: black;
+.hljs,
+.hljs-tag,
+.css .hljs-rules,
+.css .hljs-value,
+.css .hljs-function
+.hljs-preprocessor,
+.hljs-pragma {
+  color: #f8f8f2;
 }
 
-pre .string,
-pre .title,
-pre .constant,
-pre .parent,
-pre .tag .value,
-pre .rules .value,
-pre .rules .value .number,
-pre .preprocessor,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .ruby .symbol .keyword,
-pre .ruby .symbol .keymethods,
-pre .instancevar,
-pre .aggregate,
-pre .template_tag,
-pre .django .variable,
-pre .smalltalk .class,
-pre .addition,
-pre .flow,
-pre .stream,
-pre .bash .variable,
-pre .apache .tag,
-pre .apache .cbracket,
-pre .tex .command,
-pre .tex .special,
-pre .erlang_repl .function_or_atom {
-  color: #800;
+.hljs-strongemphasis,
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
 }
 
-pre .comment,
-pre .annotation,
-pre .template_comment,
-pre .diff .header,
-pre .chunk {
-  color: #888;
+.hljs-bullet,
+.hljs-blockquote,
+.hljs-horizontal_rule,
+.hljs-number,
+.hljs-regexp,
+.alias .hljs-keyword,
+.hljs-literal,
+.hljs-hexcolor {
+  color: #ae81ff;
 }
 
-pre .number,
-pre .date,
-pre .regexp,
-pre .literal,
-pre .smalltalk .symbol,
-pre .smalltalk .char,
-pre .go .constant,
-pre .change {
-  color: #080;
+.hljs-tag .hljs-value,
+.hljs-code,
+.hljs-title,
+.css .hljs-class,
+.hljs-class .hljs-title:last-child {
+  color: #a6e22e;
 }
 
-pre .label,
-pre .javadoc,
-pre .ruby .string,
-pre .decorator,
-pre .filter .argument,
-pre .localvars,
-pre .array,
-pre .attr_selector,
-pre .important,
-pre .pseudo,
-pre .pi,
-pre .doctype,
-pre .deletion,
-pre .envvar,
-pre .shebang,
-pre .apache .sqbracket,
-pre .nginx .built_in,
-pre .tex .formula,
-pre .erlang_repl .reserved,
-pre .input_number {
-  color: #88F
+.hljs-link_url {
+  font-size: 80%;
 }
 
-pre .css .tag,
-pre .javadoctag,
-pre .phpdoc,
-pre .yardoctag {
+.hljs-strong,
+.hljs-strongemphasis {
   font-weight: bold;
 }
 
-pre .keyword,
-pre .id,
-pre .phpdoc,
-pre .title,
-pre .built_in,
-pre .aggregate,
-pre .smalltalk .class,
-pre .winutils,
-pre .bash .variable,
-pre .apache .tag,
-pre .go .typename,
-pre .tex .command {
-  font-weight: bold;
+.hljs-emphasis,
+.hljs-strongemphasis,
+.hljs-class .hljs-title:last-child {
+  font-style: italic;
 }
 
-pre .nginx .built_in {
-  font-weight: normal;
+.hljs-keyword,
+.hljs-function,
+.hljs-change,
+.hljs-winutils,
+.hljs-flow,
+.lisp .hljs-title,
+.clojure .hljs-built_in,
+.nginx .hljs-title,
+.tex .hljs-special,
+.hljs-header,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-tag .hljs-title,
+.hljs-value,
+.alias .hljs-keyword:first-child,
+.css .hljs-tag,
+.css .unit,
+.css .hljs-important {
+  color: #f92672;
 }
 
-pre .xml .css,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .tex .formula {
+.hljs-function .hljs-keyword,
+.hljs-class .hljs-keyword:first-child,
+.hljs-constant,
+.css .hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.css .hljs-id,
+.hljs-subst,
+.haskell .hljs-type,
+.ruby .hljs-class .hljs-parent,
+.hljs-built_in,
+.django .hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.django .hljs-filter .hljs-argument,
+.smalltalk .hljs-localvars,
+.smalltalk .hljs-array,
+.hljs-attr_selector,
+.hljs-pseudo,
+.hljs-addition,
+.hljs-stream,
+.hljs-envvar,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.hljs-prompt,
+.hljs-link_label,
+.hljs-link_url {
+  color: #e6db74;
+}
+
+.hljs-comment,
+.hljs-javadoc,
+.java .hljs-annotation,
+.python .hljs-decorator,
+.hljs-template_comment,
+.hljs-pi,
+.hljs-doctype,
+.hljs-deletion,
+.hljs-shebang,
+.apache .hljs-sqbracket,
+.tex .hljs-formula {
+  color: #75715e;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata,
+.xml .php,
+.php .xml {
   opacity: 0.5;
 }
