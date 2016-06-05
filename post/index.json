@@ -1,5 +1,11 @@
 [
     {
+        "title": "[备份]SSH多帐号配置",
+        "path": "2013-09-11-ad-terms",
+        "tags": ["ssh","git","备份"],
+        "date": "2016-06-05"
+    },
+    {
         "title": "广告基本概念与术语总结",
         "path": "2013-09-11-ad-terms",
         "tags": ["广告","DMP","RTB","SSP","DSP"],
@@ -34,6 +40,6 @@
         "path": "2012-10-11-Lucene-and-solr-config",
         "tags": ["lucene", "solr", "倒排索引"],
         "date": "2012-10-11"
-    }	
-	
+    }
+
 ]
